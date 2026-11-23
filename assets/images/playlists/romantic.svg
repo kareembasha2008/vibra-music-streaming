@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+    <defs>
+      <linearGradient id="pGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#be185d"/>
+        <stop offset="50%" stop-color="#e11d48"/>
+        <stop offset="100%" stop-color="#fb7185"/>
+      </linearGradient>
+    </defs>
+    <rect width="400" height="400" rx="20" fill="url(#pGrad)"/>
+    <circle cx="200" cy="180" r="90" fill="#ffffff" opacity="0.08"/>
+    <circle cx="200" cy="180" r="60" fill="#ffffff" opacity="0.12"/>
+    <!-- Waveform motif -->
+    <path d="M 120 180 Q 160 140 200 180 T 280 180" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 130 200 Q 165 170 200 200 T 270 200" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <text x="35" y="325" fill="#ffffff" font-family="sans-serif" font-weight="900" font-size="28" letter-spacing="0.5">Romantic Melodies</text>
+    <text x="35" y="355" fill="rgba(255,255,255,0.75)" font-family="sans-serif" font-weight="600" font-size="14" letter-spacing="1.5">HEARTFELT SONGS & SOUL</text>
+  </svg>
