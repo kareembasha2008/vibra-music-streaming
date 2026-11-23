@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09090b"/>
+      <stop offset="50%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#27272a"/>
+    </linearGradient>
+    <linearGradient id="flashGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" fill="url(#bg4)"/>
+  <!-- Energetic lightning / pulse chevron shapes -->
+  <path d="M 120 120 L 320 250 L 120 380" fill="none" stroke="url(#flashGrad)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 180 120 L 380 250 L 180 380" fill="none" stroke="#a855f7" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+  <circle cx="320" cy="250" r="24" fill="#ffffff"/>
+  <rect x="40" y="40" width="150" height="26" rx="13" fill="#18181b" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="115" y="57" fill="#fce7f3" font-family="sans-serif" font-weight="700" font-size="11" text-anchor="middle" letter-spacing="2">WORKOUT EDM</text>
+  <text x="40" y="450" fill="#ffffff" font-family="sans-serif" font-weight="800" font-size="28" letter-spacing="1">APEX PULSE</text>
+  <text x="40" y="475" fill="#ec4899" font-family="sans-serif" font-weight="600" font-size="16" letter-spacing="1.5">HYPERRHYTHM</text>
+</svg>
